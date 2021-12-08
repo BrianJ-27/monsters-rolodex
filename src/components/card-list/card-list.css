@@ -2,6 +2,23 @@
     width: 85vw;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 20px;
+  
+  }
+
+  @media only screen and (min-width: 768px) {
+    .card-list {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    .card-list {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  @media only screen and (min-width: 1224px) {
+    .card-list {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
   }
